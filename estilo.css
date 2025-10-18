@@ -4,7 +4,7 @@
 }
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: white url(imagem/fundo.png) repeat-x;
+    background: white url(fundo.png) repeat-x;
     height: 233px ;
 }
 #container {
@@ -20,13 +20,13 @@ body {
     margin: 0 auto;
     height: 150px;
     padding-top: 25px;
-    background: url(imagem/detalhe-topo.png) right no-repeat;
+    background: url(detalhe-topo.png) right no-repeat;
 }
 .logo {
     
     width: 152px;
     height: 66px;
-    background: url(imagem/logo.png)no-repeat left;
+    background: url(logo.png)no-repeat left;
     text-indent: -3000px;
 
 }
@@ -48,7 +48,7 @@ body {
     line-height: 40px;
     text-decoration: none;
     color: white;
-    background: rgb(217, 18, 51) url(imagem/divisor.png) left repeat-y;
+    background: rgb(217, 18, 51) url(divisor.png) left repeat-y;
 }
 
 #topo ul .primeiro a {
@@ -57,7 +57,7 @@ body {
 
 #topo a:hover{
     color: rgb(172, 140, 164);
-    background: rgb(172, 19, 44) url(imagem/divisor.png) left repeat-y ;
+    background: rgb(172, 19, 44) url(divisor.png) left repeat-y ;
 }
 body.home a#home,
 body.brasil a#brasil,
@@ -65,7 +65,7 @@ body.economia a#economia,
 body.saude a#saude,
 body.tecnologia a#tecnologia {
     color: rgb(172, 140, 164);
-    background: rgb(172, 19, 44) url(imagem/divisor.png) left repeat-y ;
+    background: rgb(172, 19, 44) url(divisor.png) left repeat-y ;
 }
 
 /*Conteudo Esquerdo*/
@@ -162,7 +162,7 @@ body.tecnologia a#tecnologia {
     padding: 10px 10px;
     margin-top: 5px;
     width: 550px;
-    background: white url(imagem/fundo-caixa.png);
+    background: white url(fundo-caixa.png);
 }
 #uma-coluna img{
     margin-top: 5px;
@@ -176,7 +176,7 @@ body.tecnologia a#tecnologia {
     padding: 10px 10px;
     margin-top: 5px;
     width: 245px;
-    background: white url(imagem/fundo-caixa.png);
+    background: white url(fundo-caixa.png);
    
 }
 
@@ -204,7 +204,7 @@ body.tecnologia a#tecnologia {
     float: left;
     margin-top: 10px;
     padding: 10px 10px;
-    background: white url(imagem/fundo-caixa.png);
+    background: white url(fundo-caixa.png);
 }
 #menu-lateral h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -240,7 +240,7 @@ body.tecnologia a#tecnologia {
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-indent: 20px;
-    background: #5a5a5a url(imagem/marcador.png) no-repeat left; 
+    background: #5a5a5a url(marcador.png) no-repeat left; 
     
 }
 #rodape {
@@ -252,4 +252,5 @@ body.tecnologia a#tecnologia {
     width: 100%;
     text-align: center;
     background: rgb(41, 76, 113);
+
 }
