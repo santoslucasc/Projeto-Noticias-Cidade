@@ -1,0 +1,255 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: white url(imagem/fundo.png) repeat-x;
+    height: 233px ;
+}
+#container {
+    
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+/* Cabeçalho */
+#topo {
+    margin: 0 auto;
+    height: 150px;
+    padding-top: 25px;
+    background: url(imagem/detalhe-topo.png) right no-repeat;
+}
+.logo {
+    
+    width: 152px;
+    height: 66px;
+    background: url(imagem/logo.png)no-repeat left;
+    text-indent: -3000px;
+
+}
+/* Navegação */
+#topo ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 45px;
+    float: left;
+
+}
+#topo li{
+    float: left;
+}
+#topo a{
+    padding: 10px 20px;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+    background: rgb(217, 18, 51) url(imagem/divisor.png) left repeat-y;
+}
+
+#topo ul .primeiro a {
+    background: rgb(216, 17, 51);
+}
+
+#topo a:hover{
+    color: rgb(172, 140, 164);
+    background: rgb(172, 19, 44) url(imagem/divisor.png) left repeat-y ;
+}
+body.home a#home,
+body.brasil a#brasil,
+body.economia a#economia,
+body.saude a#saude,
+body.tecnologia a#tecnologia {
+    color: rgb(172, 140, 164);
+    background: rgb(172, 19, 44) url(imagem/divisor.png) left repeat-y ;
+}
+
+/*Conteudo Esquerdo*/
+#conteudo-esq {
+    margin-top: 50px;
+    width: 275px;
+    float: right;     
+}
+#conteudo-esq h1  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background: rgb(41, 76, 113);
+}
+#conteudo-esq h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    margin-top: 10px;    
+    text-align: left;
+    padding: 5px;
+    display: flex;
+    width: max-content;
+    color: white;
+    background: rgb(187, 6, 66);
+}
+#conteudo-esq p {
+    text-align: left;
+}
+
+/*Conteudo Direito*/
+#conteudo-dir{
+    margin-top: 50px;
+    width: 275px;
+    float: right;
+    
+}
+#conteudo-dir h1  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background: rgb(41, 76, 113);
+}
+#conteudo-dir h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    margin-top: 10px;    
+    text-align: left;
+    padding: 5px;
+    display: flex;
+    width: max-content;
+    color: white;
+    background: rgb(187, 6, 66);
+}
+#conteudo-dir p {
+    text-align: left;
+}
+
+/* Uma Coluna */
+#uma-coluna {
+    margin-top: 50px;
+    width: 540px;
+    float: right;
+}
+#uma-coluna h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background: rgb(41, 76, 113);
+}
+#uma-coluna h2 {
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    margin-top: 10px;    
+    text-align: left;
+    padding: 5px;
+    display: flex;
+    width: max-content;
+    color: white;
+    background: rgb(187, 6, 66);
+}
+#uma-coluna p {
+    text-align: left;
+}
+.conteudo-uma-coluna {
+    padding: 10px 10px;
+    margin-top: 5px;
+    width: 550px;
+    background: white url(imagem/fundo-caixa.png);
+}
+#uma-coluna img{
+    margin-top: 5px;
+    padding-right: px;
+    width: 540px;
+}
+
+/* Conteudo Duas Colunas */
+
+.conteudo {
+    padding: 10px 10px;
+    margin-top: 5px;
+    width: 245px;
+    background: white url(imagem/fundo-caixa.png);
+   
+}
+
+.conteudo img{
+    margin-top: 5px;
+    padding-right: 5px;
+    width: 100%;
+}
+.conteudo a{
+    text-decoration: none;
+    line-height: 60px;
+
+}
+.caixa {
+    background: white;
+}
+#lateral {
+    margin-top: 45px;
+    width: 180px;
+    float: left;
+}
+
+#menu-lateral {
+    width: 160px;
+    float: left;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background: white url(imagem/fundo-caixa.png);
+}
+#menu-lateral h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background: rgb(41, 76, 113);
+}
+#menu-lateral ul{
+    margin-top: 5px;
+    list-style: none;
+    text-align: left;
+}
+#menu-lateral li{
+    margin: 0px;
+    list-style: none;
+}
+#menu-lateral a{
+    display: block;
+    text-align: left;
+    line-height: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+    background: #ffffff;
+    color: black;
+    text-decoration: none;
+    
+}
+#menu-lateral a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-indent: 20px;
+    background: #5a5a5a url(imagem/marcador.png) no-repeat left; 
+    
+}
+#rodape {
+    float: left;
+
+    margin-top: 40px;
+    line-height: 40px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    background: rgb(41, 76, 113);
+}
